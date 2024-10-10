@@ -14,11 +14,16 @@ public class Test
 	{
 		return "java";
 	}
+	public int m4()
+	{
+		return 10;
+	}
    public static void main(String[] args) 
    {
 	   Test t = new Test();
 	   t.m1();
 	   t.m2();
 	   t.m3();
+	   t.m4();
 }
 }
