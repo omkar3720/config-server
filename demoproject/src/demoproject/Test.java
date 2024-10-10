@@ -18,6 +18,10 @@ public class Test
 	{
 		return 10;
 	}
+	public void m5(int x)
+	{
+		System.out.println("M5");
+	}
    public static void main(String[] args) 
    {
 	   Test t = new Test();
@@ -25,5 +29,6 @@ public class Test
 	   t.m2();
 	   t.m3();
 	   t.m4();
+	   t.m5(10);
 }
 }
